@@ -7,7 +7,6 @@ import org.springframework.boot.actuate.endpoint.annotation.WriteOperation;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@Endpoint(id="custom_endpoint")
 @Component
 public class MyCustomEndpoint {
 
